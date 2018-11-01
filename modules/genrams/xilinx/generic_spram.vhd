@@ -22,6 +22,8 @@ entity generic_spram is
     -- RAM read-on-write conflict resolution. Can be "read_first" (read-then-write)
     -- or "write_first" (write-then-read)
     g_addr_conflict_resolution : string := "write_first";
+
+    -- Path should be relative to memory_loader_pkc.vhd directory
     g_init_file                : string := ""
     );
 
