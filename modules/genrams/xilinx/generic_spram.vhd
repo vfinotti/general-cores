@@ -6,6 +6,9 @@ use ieee.std_logic_arith.all;
 library work;
 use work.genram_pkg.all;
 
+library work;
+use work.memory_loader_pkg.all;
+
 entity generic_spram is
 
   generic (
